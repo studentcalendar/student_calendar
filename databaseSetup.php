@@ -9,6 +9,7 @@ $db_handle = mysql_connect($server, $user_name, $password);
 $db_found = mysql_select_db($database, $db_handle);
 
 if ($db_found) {
+	/*
 	//set variables for class tables
 
 	//tb_address_book is the table
@@ -38,7 +39,7 @@ if ($db_found) {
 	//deleting
 	$sql = "DELETE FROM ". $class_schedule ."MyGuests WHERE id=3";
 
-	mysql_close($db_handle);
+	mysql_close($db_handle);*/
 }
 else {
 	print "Database NOT Found ";
