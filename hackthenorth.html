@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class = "student calendar"> 
+
+<link rel="stylesheet" href="css/main.css">
+
+<script src ="js/htn.js"> </script>
+
+	<head>
+		<h1>University of Waterloo Student Calander </h1>
+	</head> 
+	<body>
+		<button onclick = "this.innerHTML=add(1,2)">ADD</button>
+		<form action ="databaseSetup.php" method = "get">
+			Event Name: <input type ="text" name ="name"><br>
+			Event Month <input type ="integer" name ="month"><br> 
+			Event Date <input type ="integer" name ="date"><br> 
+			Event Year: <input type ="integer" name ="year"><br>
+			Event Description: <input type = "text" name ="description"><br>
+			<input type = "submit">
+		</form>
+<div class='wrapper'>
+    <form id='nameForm'>
+    <div class='form-uname'>
+        <lable id='nameLable' for='nameField'>Create a username:</lable>
+        <input id='nameField' type='text' maxlength='25'></input>
+    </div>
+    <div class='form-sub'>
+        <button id='subButton' type='button'>Print your name!</button>
+    </div>
+</form>
+
+<div>
+    <p id='result'></p></div>
+</div>
+
+	</body>
+</html>	
